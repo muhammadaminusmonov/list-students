@@ -35,4 +35,4 @@ const masala4 = (number1, number2, number3) => {
 const masala5 = (value1, value2, value3) => {
   console.log(Math.max(value1, value2, value3));
 };
-masala5(23, 43, 12);
+// masala5(23, 43, 12);
