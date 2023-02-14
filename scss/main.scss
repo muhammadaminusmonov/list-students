@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+
+//
+body {
+  background: #311d4e;
+  color: #ffffff;
+}
+main {
+  padding: 35px 0;
+  display: flex;
+  gap: 25px;
+}
+form {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background: #34234c;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    label {
+      font-size: 12px;
+    }
+    input {
+      width: 100%;
+      height: 37px;
+      border-radius: 8px;
+      padding: 0 10px;
+      outline: none;
+      font-size: 18px;
+    }
+  }
+  .error {
+    small {
+      color: red;
+    }
+    input {
+      border: 1px solid red;
+    }
+  }
+  .success {
+    small {
+      color: greenyellow;
+    }
+    input {
+      border: 1px solid greenyellow;
+    }
+  }
+  button {
+    margin-top: 5px;
+    width: 100%;
+    height: 37px;
+    border-radius: 8px;
+    font-size: 18px;
+    background: #ffffff;
+    border: none;
+  }
+}
+.table {
+  width: 100%;
+}
+table {
+  border-collapse: collapse;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background: #34234c;
+  border-radius: 8px;
+  padding: 15px;
+  width: 100%;
+  height: auto;
+  thead {
+    tr {
+      font-size: 20px;
+      height: 45px;
+    }
+  }
+  tbody {
+    tr:nth-child(even) {
+      background: #553880;
+    }
+  }
+  td:nth-child(1) {
+    width: 5%;
+    text-align: center;
+  }
+  td:nth-child(2) {
+    width: 50%;
+  }
+  td:nth-child(3) {
+    width: 10%;
+    text-align: center;
+  }
+  td:nth-child(4) {
+    width: 35%;
+  }
+  tbody {
+    tr {
+      height: 40px;
+    }
+  }
+}
