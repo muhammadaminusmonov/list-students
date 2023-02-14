@@ -103,5 +103,3 @@ form.addEventListener("input", function (e) {
 });
 
 let i = 1;
-
-submit.addEventListener("click", () => {});
