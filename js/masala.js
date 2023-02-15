@@ -1,9 +1,5 @@
 const masala1 = (word) => {
-  i = 0;
-  for (const index of word) {
-    i++;
-  }
-  console.log(i);
+  console.log(word.length);
 };
 // masala1("Najot talim");
 
